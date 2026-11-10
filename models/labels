@@ -1,0 +1,12 @@
+{
+  "labels": [
+    "Hello",
+    "No",
+    "Please",
+    "Sorry",
+    "Thank_you",
+    "Yes"
+  ],
+  "sequence_length": 30,
+  "feature_dim": 642
+}
