@@ -1,0 +1,129 @@
+{
+  "trained_at": "2026-11-10 16:30:19",
+  "labels": [
+    "Hello",
+    "No",
+    "Please",
+    "Sorry",
+    "Thank_you",
+    "Yes"
+  ],
+  "samples_per_label": {
+    "Hello": 10,
+    "No": 10,
+    "Please": 10,
+    "Sorry": 10,
+    "Thank_you": 10,
+    "Yes": 10
+  },
+  "split_sizes": {
+    "train": 42,
+    "validation": 9,
+    "test": 9
+  },
+  "epochs_run": 25,
+  "best_val_accuracy": 0.6666666865348816,
+  "test_accuracy": 0.5555555555555556,
+  "per_label": {
+    "Hello": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "No": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Please": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Sorry": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "Thank_you": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Yes": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "accuracy": 0.5555555555555556,
+    "macro avg": {
+      "precision": 0.4166666666666667,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.4444444444444444,
+      "support": 9.0
+    },
+    "weighted avg": {
+      "precision": 0.4444444444444444,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.4444444444444444,
+      "support": 9.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "note": "Test accuracy is measured on held-out samples from YOUR dataset. If the samples were recorded by one person in one session, it overestimates accuracy for new signers, lighting and camera positions. With a small test set it is also a noisy estimate."
+}
